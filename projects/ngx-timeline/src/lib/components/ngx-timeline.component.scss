@@ -1,12 +1,13 @@
 $flex-display-col: 49 49 0;
 $flex-display-col-center: 2 2 0;
-$background-line: #464646;
-$background-orange: orange;
+$background-line: #5dd39e;
+$background-green: #5dd39e;
 
 .main-container {
   display: flex;
   justify-content: center;
-  width: 100%
+  width: 100%;
+  background: #F2F3F8;
 }
 
 .items-container {
@@ -59,7 +60,7 @@ $background-orange: orange;
     max-height: 50%;
     height: 50%;
     background: $background-line;
-    width: 0.1rem;
+    width: .8rem;
 
     &.transparent {
       background: transparent;
@@ -68,7 +69,7 @@ $background-orange: orange;
 }
 
 .period-container {
-  background: $background-orange;
+  background: $background-green;
   color: white;
   margin: 0;
   padding: 0.2rem 0.5rem;
@@ -91,10 +92,11 @@ $background-orange: orange;
   background: white;
 
   .icon {
-    height: 1rem;
-    width: 1rem;
+    height: 1.8rem;
+    width: 1.8rem;
     border-radius: 50%;
-    background: $background-orange;
+    border: .2rem solid white;
+    background: $background-green;
     margin: 0;
     position: absolute;
   }
@@ -206,7 +208,7 @@ $background-orange: orange;
 
     .period-inner-container {
       position: absolute;
-      background: $background-orange;
+      background: $background-green;
       color: white;
       width: max-content;
       padding: 0.2rem 0.5rem;
